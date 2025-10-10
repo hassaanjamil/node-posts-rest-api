@@ -46,6 +46,7 @@ npm start
 | POST | `/posts` | Create a new post (provide JSON body) |
 | PUT | `/posts/:id` | Update an existing post |
 | DELETE | `/posts/:id` | Remove a post |
+| GET | `/users/:id` | Get a single user by ID |
 | GET | `/comments` | List all comments |
 
 #### Sample `curl` requests
