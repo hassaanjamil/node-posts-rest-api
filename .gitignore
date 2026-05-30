@@ -1,5 +1,5 @@
 .npm-cache
+.yarn-cache
 .vscode
 node_modules
-.npmsrc
 package-lock.json
