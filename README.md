@@ -20,9 +20,9 @@ yarn --version
 
 ## Installation
 1. Install dependencies:
-   ```bash
+  ```bash
   yarn install
-   ```
+  ```
 2. (Optional) Review the sample dataset in `data/db.json` and tailor it to your needs. The structure includes `posts`, `comments`, and `users` collections by default.
 
 ## Running the Express API
