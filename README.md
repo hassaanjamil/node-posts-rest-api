@@ -9,19 +9,19 @@ A minimal Express-based REST API backed by a flat JSON data store. It ships with
 
 ## Prerequisites
 - Node.js 18 or newer (LTS recommended)
-- npm 9+ (bundled with Node.js)
+- Yarn 1.22+ (or newer)
 
 Verify your versions:
 
 ```bash
 node --version
-npm --version
+yarn --version
 ```
 
 ## Installation
 1. Install dependencies:
    ```bash
-   npm install
+  yarn install
    ```
 2. (Optional) Review the sample dataset in `data/db.json` and tailor it to your needs. The structure includes `posts`, `comments`, and `users` collections by default.
 
@@ -31,7 +31,7 @@ The primary development server is defined in `src/server.js`. It exposes CRUD op
 Start it with nodemon:
 
 ```bash
-npm start
+yarn start
 ```
 
 - The server listens on `http://localhost:3000`.
@@ -76,7 +76,7 @@ This project also bundles `json-server` for teams that prefer its full CRUD scaf
 Start JSON Server (optional) on a different port:
 
 ```bash
-npx json-server --watch data/db.json --port 4000 --delay 200
+yarn json-server --watch data/db.json --port 4000 --delay 200
 ```
 
 - The `--watch` flag keeps the server in sync with edits to `db.json`.
